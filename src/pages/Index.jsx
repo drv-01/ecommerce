@@ -90,7 +90,7 @@ const Index = () => {
         <ProductGrid title="TOP SELLING" products={topSelling} />
         <BrowseByStyle />
         <Testimonials />
-        <Newsletter />
+      
         <Footer />
       </div>
     </div>

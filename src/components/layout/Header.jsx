@@ -11,19 +11,7 @@ export const Header = () => {
 
   return (
     <header className="w-full">
-      <div className="bg-black self-stretch flex items-stretch gap-[40px_100px] overflow-hidden text-sm text-white font-medium flex-wrap px-20 py-[9px] max-md:max-w-full max-md:px-5">
-        <div>
-          <span className="font-normal">
-            Sign up and get 20% off to your first order.{" "}
-          </span>
-          <span className="underline cursor-pointer">Sign Up Now</span>
-        </div>
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/817740f5920e0d6c2a8647280c10641d316a5763?placeholderIfAbsent=true"
-          className="aspect-[1] object-contain w-5 shrink-0"
-          alt="Close"
-        />
-      </div>
+      
       <nav className="flex w-full max-w-[1240px] items-center gap-10 justify-center flex-wrap mt-6 max-md:max-w-full mx-auto">
         <div className="text-black text-[32px] font-bold self-stretch my-auto">
           SHOP.CO

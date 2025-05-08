@@ -15,7 +15,7 @@ export const HeroSection = () => {
             <button className="bg-black min-h-[52px] gap-3 overflow-hidden text-base text-white font-medium mt-8 px-[54px] py-[15px] rounded-[62px] max-md:px-5 w-fit">
               Shop Now
             </button>
-            <div className="flex items-center gap-8 flex-wrap mt-12 max-md:mt-10">
+            <div className="flex justify-around gap-8  mt-12 max-md:mt-10 w-[1000px]">
               <div className="self-stretch my-auto">
                 <div className="text-black text-[40px] font-bold">200+</div>
                 <div className="text-black text-base font-normal leading-none">
@@ -40,7 +40,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="w-6/12 ml-5 max-md:w-full max-md:ml-0">
-          <div className="flex flex-col max-md:max-w-full max-md:mt-10">
+          <div className="flex flex-col max-md:max-w-full max-md:mt-10 ml-32">
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea1cfb0973707e54ca56a9ee79412abe496c1559?placeholderIfAbsent=true"
               className="aspect-[1] object-contain w-[104px] max-w-full"
